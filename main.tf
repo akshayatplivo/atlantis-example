@@ -14,3 +14,6 @@ resource "aws_eip" "master-2" {
     Name = "Master-2"
   }
   }
+
+resource "null_resource" "example1" {
+  }
